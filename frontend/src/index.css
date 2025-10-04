@@ -1,0 +1,10 @@
+/* Injecting Tailwind directives */
+@import "tailwindcss";
+
+/* Custom body styles for Segoe UI font fallback and smooth rendering */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Updated font to Segoe UI */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
